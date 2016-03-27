@@ -1,0 +1,3 @@
+#!/bin/bash
+
+jar cvfm accountkeeper.jar manifest.mf -C src org/accountkeeper

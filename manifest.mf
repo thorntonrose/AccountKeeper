@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Created-By: 1.2 (Sun Microsystems Inc.)
+Class-Path: javacogs.jar
+Main-Class: org.accountkeeper.AccountKeeper
+
+Name: org/accountkeeper/AccountKeeper.class

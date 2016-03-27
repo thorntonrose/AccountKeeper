@@ -1,0 +1,47 @@
+Account Keeper
+
+Database:
+
+   System    char(50)
+   UserID    char(50)
+   Password  char(25)
+
+
+Screens:
+  
+  - List:
+  
+     ACCOUNT
+     xxxxxxxxxxxxx...
+     ...
+  
+  
+  
+  
+     [Add] [Edit] [Delete]
+     
+  - Account:
+  
+     System:   ___________________________________
+     Username: ___________________________________
+     Password: _______________
+     
+
+
+
+     
+     [Save] [Cancel]
+
+
+Classes:
+
+   - AccountKeeper (main form)
+   - AccountEntryForm
+   - Account
+   - AccountList
+   - AccountTableModel
+   - AccountTable
+   - MessageDialog
+   - ExceptionDialog
+   - BeanProxy
+

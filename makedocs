@@ -1,0 +1,12 @@
+#!/bin/bash
+
+rm -r docs/api/*
+javadoc \
+   -classpath src:javacogs.jar \
+   -sourcepath src \
+   -private \
+   -d docs/api \
+   -use -author -version \
+   -doctitle "Account Keeper" \
+   -windowtitle "Account Keeper Javadocs" \
+   org.accountkeeper.AccountKeeper
